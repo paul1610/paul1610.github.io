@@ -1,0 +1,69 @@
+#animated-btn {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #000;
+}
+
+#animated-btn span {
+    position: absolute;
+    display: block;
+    background: #000;
+    transition: transform ease-in-out 0.4s;
+}
+
+a span:nth-child(1) {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    transform: scaleX(0);
+    transform-origin: right;
+}
+
+a:hover span:nth-child(1) {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+a span:nth-child(3) {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+a:hover span:nth-child(3) {
+    transform: scaleX(1);
+    transform-origin: right;
+}
+
+a span:nth-child(2) {
+    top: 0;
+    right: 0;
+    width: 1px;
+    height: 100%;
+    transform: scaleY(0);
+    transform-origin: bottom;
+}
+
+a:hover span:nth-child(2) {
+    transform: scaleY(1);
+    transform-origin: top;
+}
+
+a span:nth-child(4) {
+    top: 0;
+    left: 0;
+    width: 1px;
+    height: 100%;
+    transform: scaleY(0);
+    transform-origin: top;
+}
+
+a:hover span:nth-child(4) {
+    transform: scaleY(1);
+    transform-origin: bottom;
+}

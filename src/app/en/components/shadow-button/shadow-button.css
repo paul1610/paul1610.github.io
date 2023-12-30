@@ -1,0 +1,35 @@
+#shadow-button {
+    position: relative;
+    z-index: 0; /* We force a stacking context */
+    background-color: black;
+    color: white;
+    width: 8em;
+    height: 2.5em;
+    margin: 4em 2em 4em 2em;
+    cursor: pointer;
+}
+
+/* Creates the shadow */
+#shadow-button::before {
+    content: "";
+    position: absolute;
+    z-index: -2;
+    inset: 0;
+    transform: translate(4px, 4px);
+    background: linear-gradient(90deg, #b16cea, #ff6167, #ff7c5c, #ffa93f, #ffab52);
+}
+
+#shadow-button::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    /* Inherit all the decorations defined on the main element */
+    background: inherit;
+    border: inherit;
+    box-shadow: inherit;
+}
+
+#shadow-button:hover {
+    transform: translate(2px, 2px);
+}

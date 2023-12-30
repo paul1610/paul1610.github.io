@@ -1,0 +1,33 @@
+.arrows {
+    width: 60px;
+    height: 72px;
+}
+
+.arrows path {
+    stroke: black;
+    fill: transparent;
+    stroke-width: 2px;
+    animation: arrow 4s infinite;
+    -webkit-animation: arrow 4s infinite;
+}
+
+@keyframes arrow
+{
+    0% {stroke: black}
+    40% {stroke: black}
+    80% {stroke: rgb(128, 128, 128)}
+    100% {stroke: black}
+}
+
+@-webkit-keyframes arrow /* Safari & Chrome */
+{
+    0% {stroke: black}
+    40% {stroke: black}
+    80% {stroke: rgb(128, 128, 128)}
+    100% {stroke: black}
+}
+
+.arrows path.a1 {
+    animation-delay:-1s;
+    -webkit-animation-delay:-1s; /* Safari & Chrome */
+}
