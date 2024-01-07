@@ -14,4 +14,4 @@ npm run dev
 - [ ] Add Url to imprint
 - [ ] Replace email-address with custom one
 - [ ] Add domain to emailjs
-- [ ] center the cards in new row
+- [ ] Center the cards in new row
