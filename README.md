@@ -15,3 +15,4 @@ npm run dev
 - [ ] Replace email-address with custom one
 - [ ] Add domain to emailjs
 - [ ] Center the cards in new row
+- [ ] Expand hobbies and skills

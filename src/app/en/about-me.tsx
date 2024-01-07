@@ -39,7 +39,7 @@ export default function AboutMe() {
                           image={"experience.png"}/>
 
                     <Card title={"Hobbies"} description={() =>
-                        <p>I love to program and ski.</p>
+                        <p>I love to code and ski.</p>
 
                     } links={[]} image={"hobbies.png"}/>
 

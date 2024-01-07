@@ -49,7 +49,7 @@ export default function Projects() {
                 </div>
                 <div className="project-container">
                     <div className="project-image">
-                        <img src={"portfolio.png"} className={"mt-4"} alt="My Personal Portfolio" />
+                        <img src={"portfolio.png"} className={"pt-6"} alt="My Personal Portfolio" />
                     </div>
                     <div className="project-description">
                         <h3>My Portfolio</h3>

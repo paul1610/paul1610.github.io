@@ -70,8 +70,9 @@ export default function Contact() {
                                         target={"_blank"}>
                         paul_1610
                     </a></h4>
-                    <h4>or send me an E-Mail: <a href={"mailto: nellpaul@icloud.com"} className={"link"}
-                                                 target={"_blank"}>
+                    <h4 className={"mt-4"}>or send me an E-Mail:</h4>
+                    <h4><a href={"mailto: nellpaul@icloud.com"} className={"link"}
+                           target={"_blank"}>
                         nellpaul@icloud.com
                     </a></h4>
                 </div>
