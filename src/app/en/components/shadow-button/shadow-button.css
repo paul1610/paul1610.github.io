@@ -1,6 +1,6 @@
 #shadow-button {
     position: relative;
-    z-index: 0; /* We force a stacking context */
+    z-index: 0;
     background-color: black;
     color: white;
     width: 8em;
@@ -32,4 +32,10 @@
 
 #shadow-button:hover {
     transform: translate(2px, 2px);
+}
+
+@media (max-width: 768px) {
+    #shadow-button {
+        margin: 4em 2em 4em 0;
+    }
 }

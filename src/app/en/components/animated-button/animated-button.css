@@ -3,6 +3,7 @@
     display: inline-block;
     padding: 10px 20px;
     color: #000;
+    margin: 4em 0 4em 0;
 }
 
 #animated-btn span {
@@ -66,4 +67,10 @@ a span:nth-child(4) {
 a:hover span:nth-child(4) {
     transform: scaleY(1);
     transform-origin: bottom;
+}
+
+@media (max-width: 768px) {
+    #animated-btn {
+        padding: 10px 15px;
+    }
 }

@@ -5,6 +5,10 @@ import ArrowDown from "@/app/en/components/arrow-down/ArrowDown";
 export default function MainContent() {
     return (
         <>
+            <div id={"portrait-mobile"}>
+                <img src={"portrait.png"}
+                     width={200} height={200} alt={"My portrait"}/>
+            </div>
             <div className={"flex justify-between"}>
                 <div className={"mt-20"}>
                     <h1 id={"gradient-text"}>I shape digital worlds</h1>
@@ -12,19 +16,19 @@ export default function MainContent() {
                     <h1>inspiring and solving problems.</h1>
 
                     <h2 className={"mt-10"}>Your IT professional for web development and support.</h2>
-                    <ShadowButton text={"Contact Me"} />
-                    {
-                        // animation with sourrounding animation boarder black for cv btn
-                    }
-                    <AnimatedButton text={"Download CV →"} />
+
+                    <div className={"flex"}>
+                        <ShadowButton text={"Contact Me"}/>
+                        <AnimatedButton text={"Download CV →"} href={"/en/download"}/>
+                    </div>
                 </div>
-                <div>
+                <div id={"portrait"}>
                     <img src={"portrait.png"}
                          width={600} height={600} alt={"My portrait"}/>
                 </div>
             </div>
-            <div className={"flex justify-center"}>
-                <ArrowDown href={"#main-content"} />
+            <div className={"flex justify-center arrow"}>
+                <ArrowDown href={"#about"}/>
             </div>
         </>
     );

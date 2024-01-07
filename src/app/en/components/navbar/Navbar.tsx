@@ -31,24 +31,24 @@ export default function Navbar ({ toggle }: { toggle: () => void }) {
                         </button>
                         <ul className="hidden md:flex gap-x-6">
                             <li>
-                                <Link href="#about-me">
+                                <a href="/en#about">
                                     <p>About me</p>
-                                </Link>
+                                </a>
                             </li>
                             <li>
-                                <Link href="#services">
-                                    <p>Services</p>
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="#projects">
+                                <a href="/en#projects">
                                     <p>Projects</p>
-                                </Link>
+                                </a>
                             </li>
                             <li>
-                                <Link href="#contact">
+                                <a href="/en#services">
+                                    <p>Services</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/en#contact">
                                     <p>Contact</p>
-                                </Link>
+                                </a>
                             </li>
                         </ul>
                     </div>
