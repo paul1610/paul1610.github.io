@@ -5,12 +5,8 @@ import ArrowDown from "@/app/en/components/arrow-down/ArrowDown";
 export default function MainContent() {
     return (
         <>
-            <div id={"portrait-mobile"}>
-                <img src={"portrait.png"}
-                     width={200} height={200} alt={"My portrait"}/>
-            </div>
             <div className={"flex justify-between"}>
-                <div className={"mt-20"}>
+                <div className={"mt-14"}>
                     <h1 id={"gradient-text"}>I shape digital worlds</h1>
                     <h1>with code and creativity,</h1>
                     <h1>inspiring and solving problems.</h1>

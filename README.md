@@ -16,3 +16,7 @@ npm run dev
 - [ ] Add domain to emailjs
 - [ ] Center the cards in new row
 - [ ] Expand hobbies and skills
+- [ ] Use Emojis
+- [ ] More text
+- [ ] fix email sender
+- [ ] fix contact me btn

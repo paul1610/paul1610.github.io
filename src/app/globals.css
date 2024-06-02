@@ -134,6 +134,13 @@ input[disabled] {
     border: 1px solid #ddd;
 }
 
+.icon-container {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 2em;
+    margin: .5em;
+}
+
 #gradient-text {
         background-image: linear-gradient(90deg, #b16cea, #ff6167, #ff7c5c, #ffa93f, #ffab52);
     background-clip: text;
