@@ -124,6 +124,7 @@ export default function AboutMe() {
                         <Card title={"Languages"} description={() => <>
                             <div className={"icon-container"}>
                                 <ReactCountryFlag countryCode="AT" svg/>
+                                <ReactCountryFlag countryCode="DE" svg/>
                                 <ReactCountryFlag countryCode="GB" svg/>
                             </div>
                         </>}
