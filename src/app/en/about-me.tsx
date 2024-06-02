@@ -12,7 +12,7 @@ import {
     SiEclipseide, SiExpress, SiFigma, SiHibernate,
     SiIntellijidea,
     SiKotlin,
-    SiKubernetes, SiNestjs, SiNextdotjs, SiPhpstorm, SiPostman, SiPycharm, SiQuarkus,
+    SiNextdotjs, SiPhpstorm, SiPycharm, SiQuarkus,
     SiTypescript, SiVisualstudio, SiVisualstudiocode, SiWebstorm
 } from "react-icons/si";
 import {
@@ -76,7 +76,9 @@ export default function AboutMe() {
                           image={"experience.png"}/>
 
                     <Card title={"Hobbies"} description={() =>
-                        <p>I love to code and ski.</p>
+                        <p>I love to code and ski. Additionally, I enjoy exploring new technologies,
+                            participating in coding-contest, and working on private projects.
+                            In my free time, I also like to hangout with friends and family.</p>
 
                     } links={[]} image={"hobbies.png"}/>
 

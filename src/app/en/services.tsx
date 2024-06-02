@@ -31,7 +31,7 @@ export default function Services() {
                           links={[]}
                           image={"pc_building.png"}/>
 
-                    <Card title={"Purchase Consulting"} description={() => <></>}
+                    <Card title={"Purchase & Setup Consulting"} description={() => <></>}
                           links={[]}
                           image={"purchase_consulting.png"}/>
                 </div>
