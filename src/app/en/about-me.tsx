@@ -11,8 +11,8 @@ import {
     SiDatagrip, SiDotnet,
     SiEclipseide, SiExpress, SiFigma, SiHibernate,
     SiIntellijidea,
-    SiKotlin,
-    SiNextdotjs, SiPhpstorm, SiPycharm, SiQuarkus,
+    SiKotlin, SiMicrosoftsqlserver,
+    SiNextdotjs, SiPhpstorm, SiPostgresql, SiPycharm, SiPython, SiQuarkus, SiShell,
     SiTypescript, SiVisualstudio, SiVisualstudiocode, SiWebstorm
 } from "react-icons/si";
 import {
@@ -95,7 +95,7 @@ export default function AboutMe() {
                                         <SiC/> <SiCsharp/> <FaCss3Alt/> <FaHtml5/> <FaJava/> <FaJs/>
                                     </div>
                                     <div className={"icon-container"}>
-                                        <SiKotlin/> <FaPhp/> <FaDatabase/> <FaPython/> <SiTypescript/>
+                                        <SiKotlin/> <FaPhp/> <SiMicrosoftsqlserver/> <FaPython/> <SiTypescript/> <SiPostgresql />
                                     </div>
                                     <p>Frameworks</p>
                                     <div className={"icon-container"}>
