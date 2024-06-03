@@ -6,7 +6,7 @@ export default function MainContent() {
     return (
         <>
             <div className="flex justify-between">
-                <div className="mt-14">
+                <div className="mt-14" id={"main-text"}>
                     <h1 id="gradient-text">I shape digital worlds</h1>
                     <h1>with code and creativity,</h1>
                     <h1>inspiring and solving problems.</h1>

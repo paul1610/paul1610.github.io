@@ -214,6 +214,10 @@ input[disabled] {
         margin-right: 2em;
     }
 
+    #main-text {
+        margin-top: 3em;
+    }
+
     h1 {
         font-size: 3em;
     }
