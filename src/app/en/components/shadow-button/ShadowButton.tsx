@@ -1,9 +1,14 @@
 import "./shadow-button.css";
 
 interface Props {
-    text: string
+    text: string,
+    href?: string
 }
 
 export default function ShadowButton(props: Props) {
-    return <button id={"shadow-button"}>{props.text}</button>;
+    return <>
+        <a href={props.href ?? ""} >
+            <button id={"shadow-button"}>{props.text}</button>
+        </a>
+    </>
 }

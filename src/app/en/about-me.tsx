@@ -10,17 +10,14 @@ import {
     SiCsharp,
     SiDatagrip, SiDotnet,
     SiEclipseide, SiExpress, SiFigma, SiHibernate,
-    SiIntellijidea,
+    SiIntellijidea, SiJquery,
     SiKotlin, SiMicrosoftsqlserver,
-    SiNextdotjs, SiPhpstorm, SiPostgresql, SiPycharm, SiPython, SiQuarkus, SiShell,
-    SiTypescript, SiVisualstudio, SiVisualstudiocode, SiWebstorm
+    SiNextdotjs, SiPhpstorm, SiPostgresql, SiPycharm, SiQuarkus, SiTypescript, SiVisualstudio, SiVisualstudiocode, SiWebstorm
 } from "react-icons/si";
 import {
     FaAndroid, FaAngular,
     FaCss3Alt,
-    FaDatabase,
-    FaDocker, FaFlask,
-    FaGitAlt,
+    FaDocker, FaGitAlt,
     FaHtml5,
     FaJava,
     FaJs, FaLinux, FaNodeJs,
@@ -92,26 +89,32 @@ export default function AboutMe() {
                                 <div>
                                     <p><b>Languages / Scripts</b></p>
                                     <div className={"icon-container"}>
-                                        <SiC/> <SiCsharp/> <FaCss3Alt/> <FaHtml5/> <FaJs/> <SiTypescript/>
+                                        <SiC color={"#A8B9CC"}/> <SiCsharp color={"#512BD4"}/> <FaCss3Alt color={"#1572B6"}/>
+                                        <FaHtml5 color={"#E34F26"}/> <FaJs color={"#F7DF1E"}/> <SiTypescript color={"#3178C6"}/>
                                     </div>
                                     <div className={"icon-container"}>
-                                        <SiKotlin/> <FaPhp/> <SiMicrosoftsqlserver/> <FaPython/> <FaJava/> <SiPostgresql />
+                                        <SiKotlin color={"#7F52FF"}/> <FaPhp color={"#777BB4"}/> <SiMicrosoftsqlserver color={"#CC2927"}/>
+                                        <FaPython color={"#3776AB"}/> <FaJava color={"#F7DF1E"}/> <SiPostgresql color={"#4169E1"} />
                                     </div>
                                     <p><b>Frameworks</b></p>
                                     <div className={"icon-container"}>
-                                        <SiBlazor/> <SiExpress/> <SiHibernate/> <SiDotnet/> <SiNextdotjs/>
+                                        <SiBlazor color={"#512BD4"}/> <SiExpress color={"#000000"}/> <SiHibernate color={"#59666C"}/>
+                                        <SiDotnet color={"#512BD4"}/> <SiNextdotjs color={"#000000"}/>
                                     </div>
                                     <div className={"icon-container"}>
-                                        <FaNodeJs/> <SiQuarkus/> <FaReact/> <FaAngular/> <FaFlask/>
+                                        <FaNodeJs color={"#5FA04E"}/> <SiQuarkus color={"#4695EB"}/> <FaReact color={"#61DAFB"}/>
+                                        <FaAngular color={"#de002d"}/> <SiJquery color={"#0769AD"}/>
                                     </div>
                                     <p><b>Tools</b></p>
                                     <div className={"icon-container"}>
-                                        <FaAndroid/> <FaDocker/> <FaLinux/> <FaWindows />
-                                        <SiVisualstudio/> <SiVisualstudiocode/> <FaGitAlt/>
+                                        <FaAndroid color={"#34A853"}/> <FaDocker color={"#2496ED"}/> <FaLinux color={"#FCC624"}/>
+                                        <FaWindows color={"#0078D4"}/> <SiVisualstudio color={"#5C2D91"}/>
+                                        <SiVisualstudiocode color={"#007ACC"}/> <FaGitAlt color={"#F05032"}/>
                                     </div>
                                     <div className={"icon-container"}>
-                                        <SiIntellijidea/> <SiDatagrip/> <SiPhpstorm/> <SiPycharm/>
-                                        <SiWebstorm/> <SiClion /> <SiEclipseide/>
+                                        <SiIntellijidea color={"#000000"}/> <SiDatagrip color={"#000000"}/> <SiPhpstorm color={"#000000"}/>
+                                        <SiPycharm color={"#000000"}/> <SiWebstorm color={"#000000"}/>
+                                        <SiClion color={"#000000"} /> <SiEclipseide color={"#2C2255"}/>
                                     </div>
                                 </div>
                             </>
@@ -121,8 +124,8 @@ export default function AboutMe() {
 
                         <Card title={"Design"} description={() => <>
                             <div className={"icon-container"}>
-                                <SiFigma /> <SiAdobexd /> <SiAdobephotoshop /> <SiAdobeillustrator />
-                                <SiAdobeaftereffects />
+                                <SiFigma color={"#F24E1E"} /> <SiAdobexd color={"#FF61F6"} /> <SiAdobephotoshop color={"#31A8FF"} />
+                                <SiAdobeillustrator color={"#FF9A00"}/> <SiAdobeaftereffects color={"#9999FF"} />
                             </div>
                         </>}
                               links={[]}
