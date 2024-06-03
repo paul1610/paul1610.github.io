@@ -90,21 +90,21 @@ export default function AboutMe() {
                         <Card title={"Programming"} description={() => <>
                             <>
                                 <div>
-                                    <p>Languages / Scripts</p>
+                                    <p><b>Languages / Scripts</b></p>
                                     <div className={"icon-container"}>
                                         <SiC/> <SiCsharp/> <FaCss3Alt/> <FaHtml5/> <FaJs/> <SiTypescript/>
                                     </div>
                                     <div className={"icon-container"}>
                                         <SiKotlin/> <FaPhp/> <SiMicrosoftsqlserver/> <FaPython/> <FaJava/> <SiPostgresql />
                                     </div>
-                                    <p>Frameworks</p>
+                                    <p><b>Frameworks</b></p>
                                     <div className={"icon-container"}>
                                         <SiBlazor/> <SiExpress/> <SiHibernate/> <SiDotnet/> <SiNextdotjs/>
                                     </div>
                                     <div className={"icon-container"}>
                                         <FaNodeJs/> <SiQuarkus/> <FaReact/> <FaAngular/> <FaFlask/>
                                     </div>
-                                    <p>Tools</p>
+                                    <p><b>Tools</b></p>
                                     <div className={"icon-container"}>
                                         <FaAndroid/> <FaDocker/> <FaLinux/> <FaWindows />
                                         <SiVisualstudio/> <SiVisualstudiocode/> <FaGitAlt/>
