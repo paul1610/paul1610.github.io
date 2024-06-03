@@ -41,7 +41,7 @@ export default function Footer () {
                 <br/>
 
                 <p><a href={"/en/imprint"} className={"link"}>Imprint</a></p>
-                <p><a href={""} className={"link"}>Privacy Policy</a></p>
+                <p><a href={"/en/imprint#privacy-policy"} className={"link"}>Privacy Policy</a></p>
 
                 <br/>
 

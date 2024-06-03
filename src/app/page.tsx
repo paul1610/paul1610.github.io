@@ -4,7 +4,7 @@ import {redirect} from "next/navigation";
 
 export default function Home() {
     function changeLangLocation() {
-        redirect(navigator.language == 'de' ? '/de' : '/en');
+        redirect(navigator.language == 'de' ? '/en' : '/en'); // /de for german site
     }
 
     useEffect(() => {

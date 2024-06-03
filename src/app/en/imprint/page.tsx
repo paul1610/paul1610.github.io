@@ -7,12 +7,14 @@ export default function Download() {
                         <h2>Imprint</h2>
                     </div>
 
-                    <div className={"flex justify-center mt-8"}>
+                    <div className={"flex justify-center mt-8"} id={"privacy-policy"}>
                         <div>
                             <p>Entwickler und Medieninhaber: <b>Nell Paul</b></p>
                             <p>Panholzerweg 30, 4030 Linz</p>
                             <p>Tel. +43 (0)664 1668805</p>
-                            <p>nellpaul@icloud.com, https://paul1610.github.io</p>
+                            <p>nellpaul@icloud.com,
+                                <a href={"https://paul1610.github.io"} className={"link"}> https://paul1610.github.io</a>
+                            </p>
                         </div>
                     </div>
 
