@@ -32,13 +32,15 @@ export default function AboutMe() {
             <div className={"scroll-padding"} id={"about"}>
                 <div className={"flex flex-col items-center mt-28"}>
                     <h2>About Me</h2>
-                    <div className={"mt-4"} id={"portrait-mobile"}>
+                    <div className={"mt-4 image-container"} id={"portrait-mobile"}>
                         <img src={"portrait.png"}
-                             width={300} height={300} alt={"My portrait"}/>
+                             width={300} height={300} alt={"My portrait"} className={"blurred-edge-image"}/>
+                        <div className={"blur-overlay"}></div>
                     </div>
                 </div>
 
-                <h4 className={"mt-20"}>Hey, I am Paul, a student and tech lover from Linz, Austria. I create and design websites and
+                <h4 className={"mt-20"}>Hey, I am Paul, a student and tech lover from Linz, Austria. I create and design
+                    websites and
                     help
                     with all kinds of tech problems.</h4>
 

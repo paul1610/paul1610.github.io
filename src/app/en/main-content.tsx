@@ -19,9 +19,9 @@ export default function MainContent() {
                     </div>
                 </div>
                 <div id="portrait">
-                    <div className="image-container">
-                        <img src={"portrait.png"} id="blurred-edge-image" width="600" height="600" alt="My portrait"/>
-                        <div className="blur-overlay"></div>
+                    <div className="image-containe">
+                        <img src={"portrait.png"} id={"blurred-edge-image"} width={600} height={600} alt="My portrait"/>
+                        <div className={"blur-overlay"}></div>
                     </div>
                 </div>
             </div>
