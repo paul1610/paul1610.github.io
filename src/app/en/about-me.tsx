@@ -92,10 +92,10 @@ export default function AboutMe() {
                                 <div>
                                     <p>Languages / Scripts</p>
                                     <div className={"icon-container"}>
-                                        <SiC/> <SiCsharp/> <FaCss3Alt/> <FaHtml5/> <FaJava/> <FaJs/> <SiKotlin/>
+                                        <SiC/> <SiCsharp/> <FaCss3Alt/> <FaHtml5/> <FaJava/> <FaJs/>
                                     </div>
                                     <div className={"icon-container"}>
-                                        <FaPhp/> <FaDatabase/> <FaPython/> <FaDatabase/> <SiTypescript/>
+                                        <SiKotlin/> <FaPhp/> <FaDatabase/> <FaPython/> <SiTypescript/>
                                     </div>
                                     <p>Frameworks</p>
                                     <div className={"icon-container"}>
