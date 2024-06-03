@@ -93,18 +93,25 @@ export default function AboutMe() {
                                     <p>Languages / Scripts</p>
                                     <div className={"icon-container"}>
                                         <SiC/> <SiCsharp/> <FaCss3Alt/> <FaHtml5/> <FaJava/> <FaJs/> <SiKotlin/>
+                                    </div>
+                                    <div className={"icon-container"}>
                                         <FaPhp/> <FaDatabase/> <FaPython/> <FaDatabase/> <SiTypescript/>
                                     </div>
                                     <p>Frameworks</p>
                                     <div className={"icon-container"}>
-                                        <SiBlazor/> <SiExpress/> <SiHibernate/> <SiDotnet/> <SiNextdotjs/> <FaNodeJs/>
-                                        <SiQuarkus/> <FaReact/> <FaAngular /> <FaFlask />
+                                        <SiBlazor/> <SiExpress/> <SiHibernate/> <SiDotnet/> <SiNextdotjs/>
+                                    </div>
+                                    <div className={"icon-container"}>
+                                        <FaNodeJs/> <SiQuarkus/> <FaReact/> <FaAngular/> <FaFlask/>
                                     </div>
                                     <p>Tools</p>
                                     <div className={"icon-container"}>
                                         <FaAndroid/> <SiDatagrip/> <FaDocker/> <SiEclipseide/> <FaGitAlt/>
-                                        <SiIntellijidea/> <FaLinux/> <SiPhpstorm/>
-                                        <SiPycharm/> <SiVisualstudio/> <SiVisualstudiocode/> <SiWebstorm/>
+                                        <SiIntellijidea/>
+                                    </div>
+                                    <div className={"icon-container"}>
+                                        <FaLinux/> <SiPhpstorm/> <SiPycharm/> <SiVisualstudio/> <SiVisualstudiocode/>
+                                        <SiWebstorm/>
                                     </div>
                                 </div>
                             </>

@@ -153,6 +153,10 @@ input[disabled] {
 }
 
 @media (max-width: 1689px) {
+    .icon-container > * {
+        margin-right: 0.5em;
+    }
+
     #body {
         margin-left: 5em;
         margin-right: 5em;
