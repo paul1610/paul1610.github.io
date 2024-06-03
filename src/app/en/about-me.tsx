@@ -6,7 +6,7 @@ import {
     SiAdobephotoshop,
     SiAdobexd,
     SiBlazor,
-    SiC,
+    SiC, SiClion,
     SiCsharp,
     SiDatagrip, SiDotnet,
     SiEclipseide, SiExpress, SiFigma, SiHibernate,
@@ -92,10 +92,10 @@ export default function AboutMe() {
                                 <div>
                                     <p>Languages / Scripts</p>
                                     <div className={"icon-container"}>
-                                        <SiC/> <SiCsharp/> <FaCss3Alt/> <FaHtml5/> <FaJava/> <FaJs/>
+                                        <SiC/> <SiCsharp/> <FaCss3Alt/> <FaHtml5/> <FaJs/> <SiTypescript/>
                                     </div>
                                     <div className={"icon-container"}>
-                                        <SiKotlin/> <FaPhp/> <SiMicrosoftsqlserver/> <FaPython/> <SiTypescript/> <SiPostgresql />
+                                        <SiKotlin/> <FaPhp/> <SiMicrosoftsqlserver/> <FaPython/> <FaJava/> <SiPostgresql />
                                     </div>
                                     <p>Frameworks</p>
                                     <div className={"icon-container"}>
@@ -106,12 +106,12 @@ export default function AboutMe() {
                                     </div>
                                     <p>Tools</p>
                                     <div className={"icon-container"}>
-                                        <FaAndroid/> <SiDatagrip/> <FaDocker/> <SiEclipseide/> <FaGitAlt/>
-                                        <SiIntellijidea/>
+                                        <FaAndroid/> <FaDocker/> <FaLinux/> <FaWindows />
+                                        <SiVisualstudio/> <SiVisualstudiocode/> <FaGitAlt/>
                                     </div>
                                     <div className={"icon-container"}>
-                                        <FaLinux/> <SiPhpstorm/> <SiPycharm/> <SiVisualstudio/> <SiVisualstudiocode/>
-                                        <SiWebstorm/>
+                                        <SiIntellijidea/> <SiDatagrip/> <SiPhpstorm/> <SiPycharm/>
+                                        <SiWebstorm/> <SiClion /> <SiEclipseide/>
                                     </div>
                                 </div>
                             </>
