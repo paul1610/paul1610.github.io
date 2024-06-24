@@ -8,7 +8,7 @@ export default function Projects() {
 
                 <div className="project-container">
                     <div className="project-image">
-                        <img src={"coming_soon.png"} alt="Rezep" />
+                        <img src={"coming_soon.png"} alt="Rezep"/>
                     </div>
                     <div className="project-description">
                         <h3>Rezep</h3>
@@ -31,7 +31,20 @@ export default function Projects() {
                 </div>
                 <div className="project-container">
                     <div className="project-image">
-                        <img src={"statscheck.png"} alt="StatsCheck" />
+                        <img src={"drapfalter.png"} alt="Rezep"/>
+                    </div>
+                    <div className="project-description">
+                        <h3>Homepage Dr. Apfalter</h3>
+                        <p className={"description"}>
+                            For this project, I designed and developed a website for a medical practice.
+                            The primary goal was to create a user-friendly platform that effectively communicates
+                            the practice’s services and values while ensuring ease of access for both new and returning patients.
+                        </p>
+                    </div>
+                </div>
+                <div className="project-container">
+                    <div className="project-image">
+                        <img src={"statscheck.png"} alt="StatsCheck"/>
                     </div>
                     <div className="project-description">
                         <h3>StatsCheck</h3>
@@ -49,7 +62,7 @@ export default function Projects() {
                 </div>
                 <div className="project-container">
                     <div className="project-image">
-                        <img src={"portfolio.png"} className={"pt-6"} alt="My Personal Portfolio" />
+                        <img src={"portfolio.png"} className={"pt-6"} alt="My Personal Portfolio"/>
                     </div>
                     <div className="project-description">
                         <h3>My Portfolio</h3>
